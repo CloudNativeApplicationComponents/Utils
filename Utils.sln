@@ -14,8 +14,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{459B34AE-299
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudNativeApplicationComponents.Utils", "src\CloudNativeApplicationComponents.Utils\CloudNativeApplicationComponents.Utils.csproj", "{40470AE7-1AFF-453E-B0FB-2896E5E67C04}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudNativeApplicationComponents.Utils.Grpc", "src\CloudNativeApplicationComponents.Utils.Grpc\CloudNativeApplicationComponents.Utils.Grpc.csproj", "{033CA951-6D6D-49F2-9831-81D6D76341CB}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,17 +24,12 @@ Global
 		{40470AE7-1AFF-453E-B0FB-2896E5E67C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40470AE7-1AFF-453E-B0FB-2896E5E67C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40470AE7-1AFF-453E-B0FB-2896E5E67C04}.Release|Any CPU.Build.0 = Release|Any CPU
-		{033CA951-6D6D-49F2-9831-81D6D76341CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{033CA951-6D6D-49F2-9831-81D6D76341CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{033CA951-6D6D-49F2-9831-81D6D76341CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{033CA951-6D6D-49F2-9831-81D6D76341CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{40470AE7-1AFF-453E-B0FB-2896E5E67C04} = {459B34AE-2994-4023-94A5-D3AA319F0CE3}
-		{033CA951-6D6D-49F2-9831-81D6D76341CB} = {459B34AE-2994-4023-94A5-D3AA319F0CE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A9ED79E-54F6-4670-BCCF-7533C3A21E25}
